@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordian Component only opens the last section when multiple have been clicked 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+      <p>
+        Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordian Component opens a clicked section 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+      <p>
+        Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+      </p>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordian Component renders no sections active by default 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
